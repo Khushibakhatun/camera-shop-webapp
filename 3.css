@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(2nd\ camera.webp);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 0 5%;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    font-family: 'Dancing Script', cursive;
+   text-decoration: none;
+   color: whitesmoke;
+   font-size: 15px;
+}
+.row{
+    height:88% ;
+    display: flex;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color:aliceblue ;
+    font-size: 30px;
+    font-weight: 500;
+}
+button{
+    font-family: 'Dancing Script', cursive;
+    width: 180px; ;
+    border:none ;
+    border-radius: 30px;
+    background-color: aliceblue;
+    padding: 15px 5px;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px; 
+    box-sizing:border-box ;
+    cursor:pointer ;
+    margin:10px 15px ;
+    background-position:center ;
+    background-size: cover;
+     font-size: 10px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.card p{
+    font-size: 12px;
+    color:yellow;
+    font-weight: 500;
+}
+.card1{
+    background-image: url(background.jpg);
+}
+.card2{
+    background-image: url(jpj.jpg);
+}
+.card3{
+    background-image: url(renature.jpg);
+}
+.card4{
+    background-image: url(camera\ pic.webp);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+span{
+    color: coral;
+}
+.col p{
+    color: aquamarine;
+}
+.card1 h2{
+    font-family: 'Dancing Script', cursive;
+    color: yellow;
+}
+.card2 h2{
+    font-family: 'Dancing Script', cursive;
+    color: yellow;
+}
+.card3 h2{
+    font-family: 'Dancing Script', cursive;
+    color: yellow;
+}
+.card4 h2{
+    font-family: 'Dancing Script', cursive;
+    color: yellow;
+   
+}
+
+   nav li a:hover, .navbar li a:active{
+        text-decoration: underline;
+        color: darkkhaki;
+}
+button:hover{
+    background-color: blue;
+}
+
+
+
